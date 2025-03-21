@@ -51,7 +51,7 @@ correlation_matrix = []
 
 #I define the number of candidates to be considered and the number of iterations for the MCS
 nrcandidates = 20
-iterations = 500
+iterations = 300
 iterations_finalMCS = 5000
 
 #I define the budget constraint (in k€) and the minimum confidence level for the portfolio
@@ -135,7 +135,7 @@ def evaluate(individual, bdgtperproject, npvperproject, maxbdgt):
 # POPULATION_SIZE = 500 #was 180 #was 100 #was 50
 POPULATION_SIZE = 180
 P_CROSSOVER = 0.4
-P_MUTATION = 0.6
+P_MUTATION = 0.1
 # MAX_GENERATIONS = 2000 #was 500 #was 200 #was 100
 MAX_GENERATIONS = 300
 HALL_OF_FAME_SIZE = 5
